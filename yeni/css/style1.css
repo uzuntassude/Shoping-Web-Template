@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+    --bg-color: #FDE3F0;
+    --pinkColor: #F6A9CE;
+    --purpleColor: #9E3668;
+    --maroonColor: #691A40;
+
+}
+
+body {
+    height: auto;
+    width: 100%;
+    min-width: 100vh;
+    background-color: var(--bg-color);
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(158, 54, 104, 0.8);
+    display: flex;
+    align-items: center;
+    
+
+
+}
+
+.logo img {
+    border-radius: 50%;
+    height: 70px;
+    width: auto;
+
+}
+
+.menu {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.menu :hover{
+    color: #ffffff;
+  
+}
+
+ul {
+    display: flex;
+    width: auto;
+    margin-left: 30px;
+
+}
+
+li {
+    list-style: none;
+    margin-right: 50px;
+    color: rgb(206, 206, 206);
+    text-shadow: 2px 3px 3px rgb(55, 10, 10);
+
+}
+
+.menu a {
+    color: rgb(227, 155, 247);
+}
+
+.sleader {
+    width: 100%;
+    height: 500px;
+    background-color: var(--purpleColor);
+    margin-top: 90px;
+}
+
+/*::-webkit-scrollbar{
+    display: none;
+} */
+
+.icerik {
+    width: 100%;
+    background-color: aliceblue;
+    height: 300px;
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+
+}
+
+.kutu {
+    width: 240px;
+    height: 250px;
+    background-color: var(--purpleColor);
+    margin-right: 25px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.icerikiki {
+    width: 100%;
+    background-color: aliceblue;
+    height: 300px;
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+
+}
+
+.kutuiki {
+    width: 240px;
+    height: 250px;
+    background-color: var(--purpleColor);
+    margin-right: 25px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.footer {
+
+    height: 300px;
+    width: 100%;
+    background-color: var(--purpleColor);
+    margin-top: 90px;
+
+}
+
+.footer-in {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.iletisim p {
+    font-size: 15px;
+    margin: 10px 0;
+    font-weight: bolder;
+    color: rgb(198, 198, 198);
+
+}
+
+.iletisim {
+    padding: 20px;
+}
+
+.hizlierisim p {
+    font-size: 15px;
+    margin: 10px 0;
+    font-weight: bolder;
+    color: rgb(198, 198, 198);
+
+}
+
+.hizlierisim {
+    padding: 20px;
+
+}
+.footer-icon{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  #dfccff;
+    font-size: 25px;
+
+}
+.footer-icon i{
+    margin: 5px;
+}
+.footer-icon :hover {
+    color: rgb(255, 255, 255);
+    transform: scale(0.8);
+    
+}
